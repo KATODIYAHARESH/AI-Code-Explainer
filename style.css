@@ -1,0 +1,19 @@
+body { font-family: system-ui, sans-serif; margin: 0; background: #0f1115; color: #e8e8e8; }
+main { max-width: 860px; margin: 0 auto; padding: 24px; }
+h1 { margin-bottom: 4px; }
+.sub { color: #9aa0a6; margin-top: 0; }
+label { display: block; font-weight: 600; margin: 12px 0 6px; }
+textarea, select { width: 100%; box-sizing: border-box; background: #1a1d23; color: #e8e8e8; border: 1px solid #333; border-radius: 8px; padding: 10px; font-family: ui-monospace, monospace; }
+textarea { font-size: 14px; }
+.row { display: flex; gap: 12px; align-items: end; flex-wrap: wrap; margin-top: 8px; }
+.row > div { flex: 1; min-width: 150px; }
+button { background: #e5322d; color: #fff; border: 0; border-radius: 8px; padding: 11px 20px; font-size: 15px; cursor: pointer; }
+button#exampleBtn { background: #333; }
+button:disabled { opacity: 0.5; }
+.status { color: #ffb4ab; }
+.result { margin-top: 20px; background: #1a1d23; border: 1px solid #333; border-radius: 12px; padding: 18px; }
+.result h2 { margin-top: 20px; }
+.result h2:first-child { margin-top: 0; }
+.result pre { background: #0f1115; padding: 10px; border-radius: 8px; overflow-x: auto; }
+.result code { font-family: ui-monospace, monospace; font-size: 13px; }
+.demo-badge { display: inline-block; background: #f9ab00; color: #111; border-radius: 6px; padding: 2px 8px; font-size: 13px; font-weight: 700; margin-bottom: 8px; }

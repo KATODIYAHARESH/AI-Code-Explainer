@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Code Explainer</title>
+<link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+<main>
+  <h1>AI Code Explainer</h1>
+  <p class="sub">Paste code, pick a level, get a clear explanation.</p>
+
+  <label for="code">Code</label>
+  <textarea id="code" rows="12" placeholder="Paste your code here..."></textarea>
+
+  <div class="row">
+    <div>
+      <label for="language">Language</label>
+      <select id="language">
+        <option>python</option>
+        <option>javascript</option>
+        <option>java</option>
+        <option>c++</option>
+        <option>go</option>
+        <option>other</option>
+      </select>
+    </div>
+    <div>
+      <label for="level">Detail level</label>
+      <select id="level">
+        <option value="beginner">Beginner</option>
+        <option value="intermediate">Intermediate</option>
+        <option value="expert">Expert</option>
+      </select>
+    </div>
+    <button id="exampleBtn" type="button">Load example</button>
+    <button id="explainBtn" type="button">Explain</button>
+  </div>
+
+  <p id="status" class="status"></p>
+  <section id="result" class="result" hidden></section>
+</main>
+<script src="/static/app.js"></script>
+</body>
+</html>
